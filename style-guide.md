@@ -30,7 +30,7 @@ Note for text colors:
 
 ### Body Copy
 
-- Font size: 13px
+- 13px
 
 ### Font
 
