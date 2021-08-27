@@ -11,6 +11,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: hsl(210, 46%, 95%);
+  margin: 0;
 }
 .wrapper-grid {
   display: grid;
@@ -164,8 +165,8 @@ body {
   }
   .wrapper-grid {
       margin-top: 40px;
-    grid-template-columns: 80%;
-    grid-template-rows: repeat(8, 260px);
+    grid-template-columns: 90%;
+    grid-template-rows: 260px 260px 260px 260px 260px 160px 260px 260px;
     width: 95%;
     place-content: center;
     align-content: initial;
@@ -180,12 +181,18 @@ body {
     grid-column: 1;
     grid-row: span 2;
   }
+  .cd-1 .desc-bold{
+    font-size: 21px;
+  }
   .cd-1::after{
       left: 55%;
   }
   .cd-2 {
     grid-column: 1;
     grid-row: span 1;
+  }
+  .cd-2 .desc-bold{
+    font-size: 20px;
   }
   .cd-3 {
     grid-column: 1;
@@ -198,5 +205,8 @@ body {
   .cd-5 {
     grid-column: 1;
     grid-row: 7 / span 2;
+  }
+  .cd-5 .desc-bold{
+    font-size: 20px;
   }
 }
